@@ -7,15 +7,6 @@ License: GPL (>= 2)
 MD5sum: 6e6b2beea2ca056dc46b41d845d87416
 NeedsCompilation: yes
 
-Package: KernSmooth
-Version: 2.23-24
-Priority: recommended
-Depends: R (>= 2.5.0), stats
-Suggests: MASS, carData
-License: Unlimited
-MD5sum: 013d1f8c6ad79cdbbc06fce4346cfa51
-NeedsCompilation: yes
-
 Package: MASS
 Version: 7.3-61
 Priority: recommended
@@ -31,7 +22,7 @@ Version: 1.0.13
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: 85972b54ae0cd9799f16ce8b47cc74af
+MD5sum: 4723d41829706dd3abb43d4947afdf89
 NeedsCompilation: yes
 
 Package: coda
@@ -43,12 +34,12 @@ MD5sum: 70f7ce084472264b1ff464feebd8769e
 NeedsCompilation: no
 
 Package: deSolve
-Version: 1.40
+Version: 1.40.1
 Depends: R (>= 3.3.0)
 Imports: methods, graphics, grDevices, stats
 Suggests: scatterplot3d, FME
 License: GPL (>= 2)
-MD5sum: c87ab1e6067fbea2260f69b541858b5c
+MD5sum: 8cd25fece439ed818c27359bcaeff739
 NeedsCompilation: yes
 
 Package: diagram
@@ -78,19 +69,11 @@ MD5sum: 82094a7de093bf3923007167c605b1c0
 NeedsCompilation: yes
 
 Package: minqa
-Version: 1.2.7
+Version: 1.2.8
 Imports: Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
 License: GPL-2
-MD5sum: 3f2cdb3ecfd1b16cb194880cc4bf8a79
-NeedsCompilation: yes
-
-Package: qualV
-Version: 0.3-5
-Depends: R (>= 2.0.0), KernSmooth
-Imports: graphics, grDevices, stats, utils
-License: GPL (>= 2)
-MD5sum: df625c555d7b0fcc3ad481035aeb8622
+MD5sum: e9fc930df316ea5b1f40b055dbdcbb48
 NeedsCompilation: yes
 
 Package: rootSolve
